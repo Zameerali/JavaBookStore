@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  
+    <!-- Define the SignUpServlet -->
+    <servlet>
+        <servlet-name>SignupServlet</servlet-name>
+        <servlet-class>SignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/SignupServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the LoginServlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the BookServlet -->
+    <servlet>
+        <servlet-name>BookServlet</servlet-name>
+        <servlet-class>BookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookServlet</servlet-name>
+        <url-pattern>/BookServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the AdminDashboardServlet -->
+    <servlet>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <servlet-class>AdminDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <url-pattern>/admin-dashboard</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the UserDashboardServlet -->
+    <servlet>
+        <servlet-name>UserDashboardServlet</servlet-name>
+        <servlet-class>UserDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserDashboardServlet</servlet-name>
+        <url-pattern>/user-dashboard</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the LogoutServlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the AddBookServlet -->
+    <servlet>
+        <servlet-name>AddBookServlet</servlet-name>
+        <servlet-class>AddBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBookServlet</servlet-name>
+        <url-pattern>/AddBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the UpdateBookServlet -->
+    <servlet>
+        <servlet-name>UpdateBookServlet</servlet-name>
+        <servlet-class>UpdateBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateBookServlet</servlet-name>
+        <url-pattern>/UpdateBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the DeleteBookServlet -->
+    <servlet>
+        <servlet-name>DeleteBookServlet</servlet-name>
+        <servlet-class>DeleteBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteBookServlet</servlet-name>
+        <url-pattern>/DeleteBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the ManageBooksServlet -->
+    <servlet>
+        <servlet-name>ManageBooksServlet</servlet-name>
+        <servlet-class>ManageBooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageBooksServlet</servlet-name>
+        <url-pattern>/ManageBooksServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the ManageUsersServlet -->
+    <servlet>
+        <servlet-name>ManageUsersServlet</servlet-name>
+        <servlet-class>ManageUsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageUsersServlet</servlet-name>
+        <url-pattern>/ManageUsersServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the DeleteUserServlet -->
+    <servlet>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <servlet-class>DeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <url-pattern>/DeleteUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the UpdateUserServlet -->
+    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>UpdateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>/UpdateUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the ManageOrdersServlet -->
+    <servlet>
+        <servlet-name>ManageOrdersServlet</servlet-name>
+        <servlet-class>ManageOrdersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageOrdersServlet</servlet-name>
+        <url-pattern>/ManageOrdersServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the UpdateOrderStatusServlet -->
+    <servlet>
+        <servlet-name>UpdateOrderStatusServlet</servlet-name>
+        <servlet-class>UpdateOrderStatusServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateOrderStatusServlet</servlet-name>
+        <url-pattern>/UpdateOrderStatusServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the ViewBooksServlet -->
+    <servlet>
+        <servlet-name>ViewBooksServlet</servlet-name>
+        <servlet-class>ViewBooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewBooksServlet</servlet-name>
+        <url-pattern>/ViewBooksServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the ViewWishlistServlet -->
+    <servlet>
+        <servlet-name>ViewWishlistServlet</servlet-name>
+        <servlet-class>ViewWishlistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewWishlistServlet</servlet-name>
+        <url-pattern>/ViewWishlistServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the ViewCartServlet -->
+    <servlet>
+        <servlet-name>ViewCartServlet</servlet-name>
+        <servlet-class>ViewCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewCartServlet</servlet-name>
+        <url-pattern>/ViewCartServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Define the ViewOrdersServlet -->
+    <servlet>
+        <servlet-name>ViewOrdersServlet</servlet-name>
+        <servlet-class>ViewOrdersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewOrdersServlet</servlet-name>
+        <url-pattern>/ViewOrdersServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>AddToCartServlet</servlet-name>
+        <servlet-class>AddToCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddToCartServlet</servlet-name>
+        <url-pattern>/AddToCartServlet</url-pattern>
+    </servlet-mapping>
+ <servlet>
+        <servlet-name>UpdateCartServlet</servlet-name>
+        <servlet-class>UpdateCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateCartServlet</servlet-name>
+        <url-pattern>/UpdateCartServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    
+<servlet>
+        <servlet-name>RemoveFromCartServlet</servlet-name>
+        <servlet-class>RemoveFromCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveFromCartServlet</servlet-name>
+        <url-pattern>/RemoveFromCartServlet</url-pattern>
+    </servlet-mapping>
+        <servlet>
+        <servlet-name>AddToWishlistServlet</servlet-name>
+        <servlet-class>AddToWishlistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddToWishlistServlet</servlet-name>
+        <url-pattern>/AddToWishlistServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RemoveFromWishlistServlet</servlet-name>
+        <servlet-class>RemoveFromWishlistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveFromWishlistServlet</servlet-name>
+        <url-pattern>/RemoveFromWishlistServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>PlaceOrderServlet</servlet-name>
+        <servlet-class>PlaceOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PlaceOrderServlet</servlet-name>
+        <url-pattern>/PlaceOrderServlet</url-pattern>
+    </servlet-mapping>
+
+  
+   
+</web-app>
